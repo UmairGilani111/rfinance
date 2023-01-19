@@ -25,7 +25,6 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
  <script>
     function myFunction(){
         var x = document.getElementById("date_filter").value;
-
         window.location.replace("https://"+window.location.hostname+"/rfinance/blogs?date=" + x);
     }
 </script>
