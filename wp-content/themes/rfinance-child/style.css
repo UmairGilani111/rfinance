@@ -1,0 +1,208 @@
+/**
+ * Theme Name:     RFinance Child
+ * Author:         RFinance
+ * Template:       RFinance
+ * Text Domain:	   rfinance-child
+ * Description:    A Multipurpose theme
+ */
+
+.elementor-20 .elementor-element.elementor-element-d801571 .elementor-button .elementor-button-content-wrapper{
+	align-items:center;
+}
+.elementor-441 .elementor-element.elementor-element-56f4ef1 .elementor-button .elementor-button-content-wrapper{
+	align-items:center;
+}
+.single_custom_blog{
+	padding-top: 60px;
+    border-top: 1px solid #d4d4d4;
+    padding-bottom: 60px;
+}
+
+.single_custom_blog .container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+	position:relative;
+}
+.single_custom_blog .author{
+	    display: flex;
+    align-items: center;
+    gap: 20px;
+	padding-bottom: 20px;
+	    justify-content: space-between;
+}
+.single_custom_blog .author .info{
+	    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.single_custom_blog #date_filter{
+	 width: 233px;
+    border: 1px solid #bd1d1d;
+    border-radius: 10px;
+    padding: 18px 20px 18px 50px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background-image: url(https://rfinance.au/wp-content/uploads/2023/01/calender-icon.png), url(https://rfinance.au/wp-content/uploads/2023/01/chevron-down-svgrepo-com-1.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position-x: -25px ,right;
+    background-position-y: center;
+    background-size: 17px, 16px;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 1px;
+	    position: absolute;
+    right: 20px;
+}
+.single_custom_blog #date_filter:before {
+	   content: "";
+     background-color:red;
+    position:absolute;
+	width:100px;
+	height:100px;
+}
+
+ 
+.single_custom_blog #date_filter option {
+/*   background-color: #bd1d1d; */
+	padding:10px 10px;
+}
+.single_custom_blog #date_filter option:checked {  
+  background-color: #bd1d1d;
+	color:#fff;
+	font-weight:600;
+}
+
+
+.single_custom_blog .author p{
+	margin: 0;
+    text-transform: uppercase;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.single_custom_blog .author img{
+	width: 51px;
+    border-radius: 50%;
+}
+
+.single_custom_blog h2 a{
+	font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+	color:#151515;
+}
+
+.single_custom_blog .fimage{
+	width:100%;
+	    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.single_custom_blog h4{
+	color:#bd1d1d;
+	font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+	    padding-top: 10px;
+}
+.single_custom_blog h4 p{}
+.single_custom_blog .main-content{}
+.single_custom_blog .main-content blockquote{
+	background-color: #f6f6f6;
+    /* margin: 0; */
+    margin-left: 0px;
+    margin-right: 0;
+    border-left: 4px solid #be1e1e;
+    padding: 30px 60px 30px 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.single_custom_blog .main-content h2{}
+.single_custom_blog .main-content h3{
+	    color: #221815;
+    font-size: 30px;
+    line-height: 40px;
+}
+.single_custom_blog .main-content h4{}
+.single_custom_blog .main-content h5{}
+
+.single_custom_blog .main-content ul{
+	margin:0;
+	padding:0;
+}
+.single_custom_blog .main-content ul li{
+	list-style: none;
+    position: relative;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+.single_custom_blog .main-content ul li:before{
+	content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url(https://rfinance.au/wp-content/uploads/2023/01/icon2.png);
+    background-position: center;
+    background-size: cover;
+    left: 0;
+    top: 5px;
+}
+
+
+@media (max-width:767px){
+	.single_custom_blog #date_filter{
+		position: static;
+		display: block;
+		margin: 0px auto;
+		margin-bottom: 20px;
+	}
+	
+	.single_custom_blog{
+		padding:30px;
+		padding-bottom:30px;
+		padding-left: 0px;
+    padding-right: 0px;
+	}
+	.single_custom_blog .author{
+		padding-bottom: 10px;
+		    flex-direction: column;
+		align-items: flex-start;
+	}
+	.single_custom_blog h2 a{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.single_custom_blog h4{
+		font-size: 16px;
+		line-height:26px;
+		    padding-top: 0px;
+	}
+	.single_custom_blog .fimage{
+		padding-top: 10px;
+		padding-bottom:10px;
+	}
+	
+	.single_custom_blog .main-content blockquote{
+		padding: 20px 20px 5px 20px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}
